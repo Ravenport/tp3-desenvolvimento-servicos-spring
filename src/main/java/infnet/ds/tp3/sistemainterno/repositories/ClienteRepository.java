@@ -1,0 +1,7 @@
+package infnet.ds.tp3.sistemainterno.repositories;
+
+import infnet.ds.tp3.sistemainterno.models.Cliente;
+import org.springframework.data.repository.CrudRepository;
+
+public interface ClienteRepository extends CrudRepository<Cliente, Long> {
+}
